@@ -25,8 +25,8 @@ const projects = [
       "A web-based IT monitoring dashboard developed during my internship at WOM Finance. Built to centralize data from ManageEngine OpManager and visualize system conditions for internal IT teams.",
     image: "/DashPreview.png",
     tags: ["React.js", "Node.js", "SQLite", "Docker", "REST API"],
-    link: "http://dash.wom.co.id:8080",
-    github: "https://github.com/brobrenat/monitordashboard",
+    link: "https://github.com/andrsginting/Dashboard-Monitoring-Project-Internship",
+    github: "https://github.com/andrsginting/Dashboard-Monitoring-Project-Internship",
   },
   {
     title: "Eco Solve – SDG 12 Awareness App",
@@ -144,8 +144,8 @@ export const Projects = () => {
         {/* CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
-            View More Details
             <ArrowUpRight className="w-5 h-5" />
+            <a href="https://github.com/andrsginting?tab=repositories">View More Details</a>
           </AnimatedBorderButton>
         </div>
       </div>
